@@ -15,7 +15,7 @@ func main() {
 	e.Use(middleware.Recover())
 
 	// Routes
-	e.GET("/", schedule)
+	e.GET("/", hello_world)
 
 	// Start server
 	e.Logger.Fatal(e.Start(":8080"))
