@@ -1,4 +1,4 @@
-package workout_scheduler
+package main
 
 import (
 	"net/http"
